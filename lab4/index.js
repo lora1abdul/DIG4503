@@ -38,12 +38,12 @@ console.log(chalk.red(req.path));
 
 
 App.get("/", function(req, res){
-    console.log("Got a request");
+    console.log("Request");
     console.log(chalk.green(req.path));
     res.send("");
  });
 
- 
+
 App.listen(port, function(){
     console.log("server running");
    }
