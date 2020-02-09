@@ -4,15 +4,9 @@ const port = 80;
 const chalk = require ('chalk');
 const Person = require("./person.js");
 const pokemons = require('json-pokemon');
-const faker = require('faker');
 
-let people = [];
-for(let i = 0; i < 99; i++)
-{
-    let name = faker.name.findName();
-    let color = faker.commerce.color();
-    people.push(new Person(name, color));
-}
+
+
 
 App.get("/id/id", (req,res)=>{
 
