@@ -10,7 +10,7 @@ App.use("/",Express.static("client/build"));
 
 
 App.get("/pokemon/id/:id", function(req, res){
-    let result = {"error"s};
+    let result = {"error");
 
     pokemon.forEach((value)=>{
         if(value.id == req.params.id){
