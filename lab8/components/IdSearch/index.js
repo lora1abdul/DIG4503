@@ -25,7 +25,7 @@ class IdSearch extends React.Component {
    render() {
        return(
            <div>
-               <h1>Pokemon Id</h1>
+               <h2>Pokemon Id</h2>
                <form onSubmit={this.readScore}>
                    <input id="id" type="text" />
                    <button>Submit</button>
